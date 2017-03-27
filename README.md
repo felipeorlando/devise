@@ -2,7 +2,7 @@
 
 By [Plataformatec](http://plataformatec.com.br/).
 
-[![Build Status](https://api.travis-ci.org/plataformatec/devise.svg?branch=master)](http://travis-ci.org/plataformatec/devise)
+[![Build Status](https://travis-ci.org/felipeorlando/devise.svg?branch=master)](https://travis-ci.org/felipeorlando/devise)
 [![Code Climate](https://codeclimate.com/github/plataformatec/devise.svg)](https://codeclimate.com/github/plataformatec/devise)
 
 This README is [also available in a friendly navigable format](http://devise.plataformatec.com.br/).
@@ -122,7 +122,7 @@ In the following command you will replace `MODEL` with the class name used for t
 $ rails generate devise MODEL
 ```
 
-Next, check the MODEL for any additional configuration options you might want to add, such as confirmable or lockable. If you add an option, be sure to inspect the migration file (created by the generator if your ORM supports them) and uncomment the appropriate section.  For example, if you add the confirmable option in the model, you'll need to uncomment the Confirmable section in the migration. 
+Next, check the MODEL for any additional configuration options you might want to add, such as confirmable or lockable. If you add an option, be sure to inspect the migration file (created by the generator if your ORM supports them) and uncomment the appropriate section.  For example, if you add the confirmable option in the model, you'll need to uncomment the Confirmable section in the migration.
 
 Then run `rake db:migrate`
 
